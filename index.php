@@ -1,3 +1,2 @@
 <?php
-include_once "./myautoload.php";
-
+require_once __DIR__ . "/init/bootstrap.php";
