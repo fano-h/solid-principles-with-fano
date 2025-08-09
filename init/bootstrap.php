@@ -4,7 +4,7 @@
  *  avec Bootstrap framework Css
  * 
  *  Bootstrap signifie : "qui met en place", "qui initialise"
- *  "qui configure", "qui prépare", ...
+ *  "qui configure", "qui prépare", "qui relie", etc...
  */
 
 require_once __DIR__ . "/myautoload.php";

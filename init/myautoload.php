@@ -4,7 +4,7 @@ spl_autoload_register('classRegistration');
 function classRegistration($class)
 {
     $namespaceRoot = "App\\";
-    $baseDir = __DIR__ . "/App/";
+    $baseDir = __DIR__ . "/app/";
 
     if (strncmp($namespaceRoot, $class, strlen($namespaceRoot)) !== 0) {
         return;
