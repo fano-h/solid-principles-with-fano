@@ -1,7 +1,11 @@
 <?php
-spl_autoload_register('classRegistration');
+/**
+ * Pour l'autoloading des class
+ */
 
-function classRegistration($class)
+spl_autoload_register('classAutoloading');
+
+function classAutoloading($class)
 {
     $namespaceRoot = "App\\";
     $baseDir = __DIR__ . "/app/";
